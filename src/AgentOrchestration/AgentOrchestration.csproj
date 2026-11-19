@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>AgentOrchestration</RootNamespace>
+    <Description>Provider-agnostic tool-calling agent runtime with guardrails, approvals, budgets, tracing and offline evals.</Description>
+  </PropertyGroup>
+</Project>
