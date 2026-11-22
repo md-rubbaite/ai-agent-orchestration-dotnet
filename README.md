@@ -2,13 +2,13 @@
 
 **An LLM agent that can refund payments. What stops it from refunding the wrong one?**
 
-A provider-agnostic tool-calling agent runtime for .NET 8, built so that safety comes from code the
+A provider-agnostic tool-calling agent runtime for .NET 10, built so that safety comes from code the
 model cannot change: tool allow-lists, approval for every write, argument validation, untrusted
 handling of tool output, budgets, loop detection and PII redaction. Behaviour is verified offline
 with scripted models, so CI catches orchestration regressions without calling an LLM.
 
 [![ci](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4)
+![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![Runtime deps: 0](https://img.shields.io/badge/runtime%20deps-0-brightgreen)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
